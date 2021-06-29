@@ -9,7 +9,7 @@ void myDisplay()
 }
 
 
-int main(int argc, char* argv[])
+int tmain(int argc, char* argv[])
 {
 	glutInit(&argc, argv);//初始化glut  （可不写默认）
 	glutInitDisplayMode(GLUT_RGB | GLUT_SINGLE);//显示模式初始化 RGB显示模式，单缓冲模式

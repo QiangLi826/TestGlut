@@ -72,7 +72,7 @@ static void RenderHandler(void)
 }
 
 
-int main(int argc, char* argv[])
+int tmain(int argc, char* argv[])
 {
     glutInit(&argc, argv);
     glutInitDisplayMode(GLUT_SINGLE);
@@ -107,4 +107,6 @@ int main(int argc, char* argv[])
     glMatrixMode(GL_MODELVIEW);
 
     glutMainLoop();
+    return 0;
 }
+
