@@ -18,5 +18,6 @@ int main(int argc, char* argv[])
 	glutCreateWindow("第一个OpenGl程序");//窗口名称
 	glutDisplayFunc(&myDisplay);//自定义函数绘图
 	glutMainLoop();//消息循环相应
+
 	return 0;
 }
