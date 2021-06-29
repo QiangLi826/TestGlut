@@ -163,7 +163,7 @@ void reshape(int w, int h) {
     gluLookAt(0, 0, 25, 0, 0, -1, 0, 1, 0);
 }
 
-int main(int argc, const char* argv[]) {
+int tmain(int argc, const char* argv[]) {
     // 初始化显示模式
     glutInit(&argc, const_cast<char**>(argv));
     glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
