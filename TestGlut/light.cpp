@@ -6,7 +6,7 @@ void init() {
     GLfloat ambient[] = { 0.0, 0.0, 0.0, 1.0 };
     GLfloat diffuse[] = { 1.0, 1.0, 1.0, 1.0 };
     //    GLfloat specular[] = { 1.0, 1.0, 1.0, 1.0 };
-    GLfloat position[] = { 0.0, 0, -1.0, 0.0 };
+    GLfloat position[] = { 0.0, 0, 1.0, 0.0 };
     glEnable(GL_DEPTH_TEST);
     glDepthFunc(GL_LESS);
     glLightfv(GL_LIGHT0, GL_AMBIENT, ambient);
